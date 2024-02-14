@@ -1,1 +1,104 @@
+/*
+* --------------------------------------------
+* Custom styles to override the default Bootstrap ones
+* --------------------------------------------
+*/
 
+/* New Color Palette:
+* Dutchwhite (Main Background): #E6D8B5
+* Asparagus (Primary): #6EA537
+* Earth-yellow (Secondary): #DEA564
+* Butterscotch (Accent): #E59A38
+*/
+
+.bg-info {
+    background-color: #DEA564 !important;
+    /* Earth-yellow  for secondary backgrounds */
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link {
+    color: #E6D8B5;
+    /* E6D8B5 for brand name & nav links for visibility */
+}
+
+.navbar-brand {
+    font-family: 'Protest Strike', sans-serif;
+    /*change the font name for what you have*/
+    font-size: 2.25rem;
+}
+
+.btn-info {
+    color: #E6D8B5;
+    /* Dutchwhite shade for text on info button for contrast */
+    background-color: #DEA564;
+    /* Earth-yellow  for button background */
+    border-color: #6EA537;
+    /* Asparagus for button border */
+}
+
+.btn-primary {
+    color: #E6D8B5;
+    /* Dutchwhite shade for text */
+    font-size: 150%;
+    background-color: #DEA564;
+    /* Asparagus for primary button background */
+}
+
+body {
+    background-color: #E6D8B5;
+    /* Dutchwhite shade for body background to follow the 60% rule */
+}
+
+
+
+/* Custom styles for dropdown to match the new color palette */
+
+/* Style for the dropdown button */
+.btn-secondary {
+    color: #6EA537;
+    /* Dutchwhite color for text */
+    background-color: #DEA564;
+    /* Dark green for the button background */
+    border-color: #E59A38;
+    /* Light green for the button border */
+}
+
+/* Change dropdown button hover/focus styles */
+.btn-secondary:hover,
+.btn-secondary:focus {
+    color: #E6D8B5;
+    /* Dutchwhite color remains for text */
+    background-color: #6EA537;
+    /* Light green for background on hover/focus */
+    border-color: #6EA537;
+    /* Butterscotch for border for emphasis */
+}
+
+/* Style for the dropdown menu */
+.dropdown-menu {
+    background-color: #DEA564;
+    /* Earth-yellow color for dropdown background */
+    border-color: #E59A38;
+    /* Butterscotch for border color */
+}
+
+/* Style for dropdown items */
+.dropdown-item {
+    color: #000000;
+    /* Black for text color */
+}
+
+/* Style for dropdown item hover */
+.dropdown-item:hover,
+.dropdown-item:focus {
+    color: #E6D8B5;
+    /* Dutchwhite color for text on hover/focus */
+    background-color: #DEA564;
+    /* Earth-yellow for background on hover/focus */
+}
+
+.card-body {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
